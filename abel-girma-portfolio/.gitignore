@@ -1,0 +1,15 @@
+# Local editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Optional package/build output if a backend or build process is added later
+node_modules/
+dist/
+build/
